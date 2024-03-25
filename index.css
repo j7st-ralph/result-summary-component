@@ -93,20 +93,21 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
 
 }
 
 .card{
-    border: 2px solid gold;
     border-radius: 20px;
     display: flex;
+    box-shadow: 10px 15px 10px hsl(221, 100%, 96%,0.5);
 }
 
 .blue-section{
     border: 1px solid blue;
     border-radius: 20px;
-    padding: 25px;
-    height: 420px;
+    padding: 30px;
+    height: 450px;
     width: 280px;
     text-align: center;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
@@ -120,8 +121,8 @@ h1{
 .no{
     border-radius: 100px;
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     padding: 20px;
     margin-bottom: 60px;
     margin-top: 50px;
@@ -129,12 +130,12 @@ h1{
 }
 
 .number{
-    font-size: 45px;
+    font-size: 40px;
     color: hsl(0, 0%, 100%);
+    font-weight: 800;
 }
 
 .blue-section p{
-    color: ;
     margin-top: px;
 }
 
@@ -144,14 +145,13 @@ h1{
 
 
 .summary{
-    padding: 20px;
-    height: 420px;
+    padding: 30px;
+    height: 450px;
     width: 280px;
 }
 
 h2{
-    text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 h5{
@@ -162,8 +162,11 @@ h5{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    background-color: ;
-    border
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
 .reaction-1{
@@ -174,7 +177,10 @@ h5{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    background-color: ;
+    background-color: hsl(39, 100%, 56%,0.1);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
 }
 
 .memory-1{
@@ -189,25 +195,32 @@ h5{
     justify-content: space-between;
     margin-bottom: 10px;
     background-color: hsl(221, 100%, 96%);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+
 }
 
 .verbal-1{
     display: flex;
     gap: 7px;
     color: hsl(166, 100%, 37%);
-    display: ;
 }
 
 .visual{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     background-color: hsl(241, 100%, 89%);
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
 }
 
 .visual-1{
     display: flex;
     gap: 7px;
+    color: hsl(234, 85%, 45%);
 }
 
 
@@ -217,9 +230,10 @@ h5{
 }
 
 .continue-btn{
-    border: 1px solid blue;
-    border-radius: 300px;
+    border-radius: 100px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
 }
