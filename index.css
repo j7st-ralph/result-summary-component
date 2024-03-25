@@ -237,3 +237,13 @@ h5{
     background-color: hsl(224, 30%, 27%);
     color: hsl(0, 0%, 100%);
 }
+
+.btn :hover{
+    background-color: hsl(241, 81%, 54%);
+    cursor: pointer;
+}
+
+.spannumber{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
